@@ -1,0 +1,68 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  background-color: rgb(202, 36, 188); /* Fondo de la navbar */
+  position: fixed;
+  width: 98%;
+  top: 0; /* Se queda pegada en la parte superior al hacer scroll */
+  z-index: 1000; /* Asegura que la navbar se superponga a otros elementos */
+}
+
+.navbar-brand {
+  margin-right: auto; /* Asegura que el logo se alinee a la izquierda */
+  display: flex;
+  align-items: center;
+}
+
+.navbar-collapse {
+  display: flex;
+  justify-content: flex-end; /* Alinea el contenido a la derecha */
+  align-items: center;
+  width: 100%;
+}
+
+.navbar-nav {
+  display: flex;
+  gap: 20px; /* Espaciado entre los elementos del menú */
+  list-style: none;
+  padding-left: 0;
+  margin-bottom: 0;
+  margin-right: 20px; /* Espaciado entre los textos y el botón */
+}
+
+.nav-item {
+  display: flex;
+}
+
+.nav-link {
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #f9e4e4; /* Cambia el color del texto */
+  font-weight: bolder; /*Aumenta el grosor del texto*/
+  font-size: 18px; /* Aumenta el tamaño del texto */
+  align-self: center; /* Alinea verticalmente con el botón */
+}
+
+.nav-link:hover {
+  color: #007bff; /* Color al pasar el mouse */
+}
+
+.form-inline {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  background-color: #007bff; /* Color azul del botón */
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease; /* Transición suave para el hover */
+  border-radius: 5px; /* Bordes redondeados del botón */
+}
+
+.btn:hover {
+  background-color: #0056b3; /* Azul más claro al hacer hover */
+}
