@@ -1,14 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 20px;
-  background-color: rgb(202, 36, 188); /* Fondo de la navbar */
+  padding: 0 0 0 0;
+  background-color: #0F1035; /* Fondo de la navbar */
   position: fixed;
-  width: 98%;
+  width: 100%;
+  height: 10vh;
   top: 0; /* Se queda pegada en la parte superior al hacer scroll */
   z-index: 1000; /* Asegura que la navbar se superponga a otros elementos */
-}
+} 
 
 .navbar-brand {
   margin-right: auto; /* Asegura que el logo se alinee a la izquierda */
@@ -38,8 +41,11 @@
 
 .nav-link {
   padding: 10px 15px;
+  margin: 0 0 2.5vh 0vh;
   text-decoration: none;
   color: #f9e4e4; /* Cambia el color del texto */
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
   font-weight: bolder; /*Aumenta el grosor del texto*/
   font-size: 18px; /* Aumenta el tamaño del texto */
   align-self: center; /* Alinea verticalmente con el botón */

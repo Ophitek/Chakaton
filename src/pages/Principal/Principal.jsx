@@ -1,12 +1,16 @@
 import NavbarPrincipal from '../../components/NavbarPrincipal/NavbarPrincipal'
+import QuienesSomos from '../../components/QuienesSomos/QuienesSomos'
+import TipoUsuario from '../../components/TipoUsuario/TipoUsuario'
 import React from 'react'
 import "./principal.css"
 
 export default function Principal() {
   return (
     <>
-      <NavbarPrincipal />
-      <div className="parallax-image"></div>
+      <NavbarPrincipal/>
+      <QuienesSomos/>
+      <TipoUsuario/>
+      {/** 
       <div className="principal">
         <div className="principal-header">
           <h1>Dashboard Administrador</h1>
@@ -25,19 +29,9 @@ export default function Principal() {
             <p>Additional information</p>
           </div>
         </div>
-        <div>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
-          
-        </div>
+        
       </div>
+       */}
     </>
   )
 }

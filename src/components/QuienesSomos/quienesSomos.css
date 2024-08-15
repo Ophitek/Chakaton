@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.our-info-container {
+    margin: 10vh 0 0 0;
+    height: 90vh; /** Todos los componentes de la pag*/
+    background-image: url('/assets/provisionalBG.jpg');
+    background-attachment: fixed; /* Clave para el efecto parallax */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    width: 100%;
+  }
+
+.our-info-text{
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  font-size: 8vh;
+}
+
+.parallax-image {
+    height: 100vh; /* Altura de la imagen abarcando toda la pantalla */
+    background-image: url('/assets/provisionalBG.jpg');
+    background-attachment: fixed; /* Clave para el efecto parallax */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

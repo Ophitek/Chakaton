@@ -14,15 +14,20 @@ export default function NavbarPrincipal() {
               <a className="nav-link" href="#">¿Quiénes somos?</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Nuestro proyecto</a>
+              <a className="nav-link" href="section2">Nuestro proyecto</a>
             </li>
             <li className="nav-item">
               <a className="nav-link" href="#">Nuestro equipo</a>
             </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#">Inicia Sesión</a>
+            </li>
           </ul>
+          {/*
           <form className="form-inline my-2 my-lg-0">
             <button className="btn btn-outline-success my-2 my-sm-0" type="submit">Inicia Sesión</button>
           </form>
+          */}
         </div>
       </nav>
     </div>

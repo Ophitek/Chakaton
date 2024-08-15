@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.user-type-container {
+    margin: 10vh 0 0 0;
+    height: 90vh;
+    width: 100%;
+  }
+  
+  .user-type-header {
+    text-align: center;
+    font-family: "Work Sans", sans-serif;
+    font-style: normal;
+    font-size: 8vh;
+    font-weight: 500;
+    color: #EEEEEE;
+    margin-bottom: 20px;
+  }
+  
+  .user-type-cards {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .user-type-card {
+    background-color: #134B70;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(23, 21, 59, 0.5);
+    font-family: "New Amsterdam", sans-serif;
+    font-size: 4vh;
+    text-align: center;
+    /*Estos siempre se me pierden, tonces los pongo abajo xd*/
+    height: 50vh;
+    margin: 10px 0 10px 0;
+    padding: 20px;
+    width: 50vh;
+  }
+  
+  .card h2 {
+    margin-top: 0;
+  }
+  
+  .card p {
+    color: #DCF2F1;
+  }
+
+  .user-type-img{
+    margin: 2vh 0 0 0;
+    height: 30vh;
+    width: 30vh;
+  }
