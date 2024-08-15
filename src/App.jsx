@@ -1,5 +1,6 @@
 import Login from './pages/Login/Login';
-import Register from './pages/Register/Register';
+import RegisterONG from './pages/RegisterONG/RegisterONG';
+import RegisterDonador from './pages/RegisterDonador/RegisterDonador';
 import Principal from './pages/Principal/Principal';
 
 import {
@@ -16,7 +17,8 @@ function App() {
         {/* Rutas publicas */}
         <Route exact path="/" element={<Principal />} />
         <Route path="/login" element={<Login />} />
-        <Route path="/register" element={<Register />} />
+        <Route path="/register" element={<RegisterDonador />} />
+        <Route path="/registerong" element={<RegisterONG />} />
       </Routes>
     </Router>
   )

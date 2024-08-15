@@ -1,4 +1,4 @@
-.login-card-container {
+.register-card-container {
     margin-top: 40px;
     display: flex;
     justify-content: center;
@@ -7,7 +7,7 @@
     font-family: 'Roboto', sans-serif;
   }
   
-  .login-card {
+  .register-card {
     display: flex;
     width: 900px;
     height:550px; 
@@ -17,7 +17,7 @@
     overflow: hidden;
   }
   
-  .login-left {
+  .register-right {
     flex: 1;
     padding: 40px;
     display: flex;
@@ -26,20 +26,20 @@
     background-color: #f7f7f7; 
   }
   
-  .login-left h1 {
+  .register-right h1 {
     margin-bottom: 20px;
     font-size: 2.5em;
     font-weight: bold;
     color: #333;
   }
   
-  .login-left .social-container {
+  .register-right .social-container {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
   }
   
-  .login-left .social-container a {
+  .register-right .social-container a {
     display: inline-block;
     width: 45px;
     height: 45px;
@@ -53,12 +53,12 @@
     transition: background-color 0.3s ease; 
   }
   
-  .login-left .social-container a:hover {
+  .register-right .social-container a:hover {
     background-color: #3498db; 
     color: white;
   }
   
-  .login-left input {
+  .register-right input {
     margin-bottom: 20px;
     padding: 15px;
     width: 100%;
@@ -67,12 +67,12 @@
     font-size: 1em;
   }
   
-  .login-left input:focus {
+  .register-right input:focus {
     border-color: #3498db; 
     outline: none;
   }
   
-  .login-left a {
+  .register-right a {
     color: #3498db; 
     text-decoration: none;
     margin-bottom: 20px;
@@ -80,7 +80,7 @@
     font-size: 0.9em;
   }
   
-  .login-left button {
+  .register-right button {
     padding: 15px;
     width: 100%;
     background-color: #3498db; 
@@ -92,11 +92,11 @@
     transition: background-color 0.3s ease;
   }
   
-  .login-left button:hover {
+  .register-right button:hover {
     background-color: #2980b9; 
   }
   
-  .login-right {
+  .register-left {
     flex: 1;
     background-color: #3498db;
     display: flex;
@@ -104,9 +104,8 @@
     align-items: center;
   }
   
-  .login-right img {
+  .register-left img {
     width: 100%;
     height: 100%;
     object-fit: cover;
-    border-left: 5px solid #fff;
   }
