@@ -1,8 +1,18 @@
 import React from 'react'
 import "./registerONG.css"
+import { useNavigate } from "react-router-dom";
 import NavbarPrincipal from '../../components/NavbarPrincipal/NavbarPrincipal'
 
 export default function RegisterONG() {
+
+  const navigate=useNavigate()
+  
+  //Agregar el manejo de usuarios
+  function handleRegister(){
+    navigate("/login")
+  }
+
+
   return (
     <>
       <NavbarPrincipal />
@@ -17,7 +27,7 @@ export default function RegisterONG() {
             <input type="text" placeholder="No se que pedir" aria-label="Auida" />
             <input type="email" placeholder="Email" aria-label="Email" />
             <input type="password" placeholder="Contraseña" aria-label="Contraseña" />
-            <button type="submit">Registrarse</button>
+            <button onClick={handleRegister}>Registrarse</button>
           </div>
         </div>
       </div>
