@@ -17,7 +17,9 @@ export default function RegisterDonador() {
             <input type="text" placeholder="Apellidos" aria-label="Apellidos" />
             <input type="email" placeholder="Email" aria-label="Email" />
             <input type="password" placeholder="Contraseña" aria-label="Contraseña" />
+            <div style={{ textAlign: 'center',}}>
             <Link to="/Donador"><button type="submit">Registrarse</button></Link>
+            </div>
             
           </div>
         </div>
