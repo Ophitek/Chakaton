@@ -1,9 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
 .user-type-container {
-    margin: 10vh 0 0 0;
-    height: 90vh;
+    height: 100vh;
     width: 100%;
+    background-color: #0F1035;
+    color: white;
   }
   
   .user-type-header {
@@ -12,7 +13,7 @@
     font-style: normal;
     font-size: 8vh;
     font-weight: 500;
-    color: #EEEEEE;
+    background-color: #0F1035;
     margin-bottom: 20px;
   }
   

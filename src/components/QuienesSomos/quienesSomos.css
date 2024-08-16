@@ -16,6 +16,13 @@
   font-family: "Work Sans", sans-serif;
   font-style: normal;
   font-size: 8vh;
+  color: white;
+}
+
+.our-info-text-small{
+  font-family: "Work Sans", sans-serif;
+  font-style: normal;
+  color: white;
 }
 
 .parallax-image {

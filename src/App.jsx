@@ -2,6 +2,7 @@ import Login from './pages/Login/Login';
 import Donacion from './pages/Donacion/Donacion';
 import Principal from './pages/Principal/Principal';
 import RegisterONG from './pages/RegisterONG/RegisterONG';
+import MainDonador from './pages/MainDonador/MainDonador';
 import RegisterDonador from './pages/RegisterDonador/RegisterDonador';
 
 
@@ -20,11 +21,12 @@ function App() {
         <Route path="/login" element={<Login />} />
         <Route exact path="/" element={<Principal />} />
         <Route path="/registerong" element={<RegisterONG />} />
-        <Route path="/register" element={<RegisterDonador />} />
+        <Route path="/registerdonador" element={<RegisterDonador />} />
         
 
         {/* Rutas donador */}
         <Route path="/donacion" element={<Donacion />} />
+        <Route path="/donador" element={<MainDonador />} />
       </Routes>
     </Router>
   )

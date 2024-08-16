@@ -11,6 +11,11 @@ export default function Login() {
     navigate("/")
   }
 
+  //Agregar posteriormente verificacion de usuario
+  function goMain(){
+    navigate("/donador")
+  }
+
   return (
     <>
       <NavbarPrincipal />
@@ -21,7 +26,7 @@ export default function Login() {
             <input type="email" placeholder="Email" aria-label="Email" />
             <input type="password" placeholder="Contraseña" aria-label="Contraseña" />
             <a onClick={goRegister}>No tienes cuenta? Registrate ahora</a>
-            <button type="submit">Inicia sesión</button>
+            <button onClick={goMain}>Inicia sesión</button>
           </div>
           <div className="login-right">
             <img src="https://images.pexels.com/photos/7345482/pexels-photo-7345482.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Login illustration" />

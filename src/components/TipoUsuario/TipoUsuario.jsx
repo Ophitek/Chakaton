@@ -7,7 +7,7 @@ export default function tipoUsuario() {
   const navigate = useNavigate()
 
   function goRegisterDonador(){
-    navigate("/register")
+    navigate("/registerdonador")
   }
 
   function goRegisterONG(){

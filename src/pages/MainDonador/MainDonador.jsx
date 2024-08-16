@@ -1,6 +1,8 @@
 import React from 'react'
+import NavbarDonador from '../../components/NavbarDonador/NavbarDonador'
 
 export default function MainDonador() {
+  
   return (
     <>
       <NavbarDonador/>
