@@ -2,8 +2,9 @@ import React from 'react'
 
 export default function MainDonador() {
   return (
-    <div>
-      
-    </div>
+    <>
+      <NavbarDonador/>
+      <h1 className="header">Hola</h1>
+    </>
   )
 }
