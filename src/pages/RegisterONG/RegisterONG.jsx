@@ -12,12 +12,12 @@ export default function RegisterONG() {
             <img src="https://images.pexels.com/photos/6646947/pexels-photo-6646947.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Login illustration" />
           </div>
           <div className="register-right">
-          <h1>Registrate</h1>
+          <h1>Empieza el cambio</h1>
             <input type="text" placeholder="Organización" aria-label="Organización" />
             <input type="text" placeholder="No se que pedir" aria-label="Auida" />
             <input type="email" placeholder="Email" aria-label="Email" />
             <input type="password" placeholder="Contraseña" aria-label="Contraseña" />
-            <button type="submit">Sign In</button>
+            <button type="submit">Registrarse</button>
           </div>
         </div>
       </div>
