@@ -1,6 +1,6 @@
 import React from 'react'
 
-export default function DonadorMain() {
+export default function MainDonador() {
   return (
     <div>
       
