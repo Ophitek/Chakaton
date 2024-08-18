@@ -16,7 +16,7 @@ export default function NavbarDonador() {
       <div className='logo'>
       📋 Lista
       </div>
-      <div className="perfil">
+      <div className="logo">
        <a>Status ☁️</a>
      </div>
       </nav>
