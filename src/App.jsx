@@ -7,6 +7,7 @@ import RegisterONG from './pages/RegisterONG/RegisterONG';
 import MainDonador from './pages/MainDonador/MainDonador';
 import MisDonaciones from './pages/MisDonaciones/MisDonaciones';
 import RegisterDonador from './pages/RegisterDonador/RegisterDonador';
+import MisDonacionesONG from './pages/MisDonacionesONG/MisDonacionesONG';
 
 
 import {
@@ -35,7 +36,7 @@ function App() {
 
         {/* Rutas donador */}
         <Route path="/ong" element={<MainONG />} />
-        
+        <Route path="/misdonacionesong" element={<MisDonacionesONG />} />
       </Routes>
     </Router>
   )

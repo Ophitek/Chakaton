@@ -1,0 +1,21 @@
+.misdonacionesong {
+    background-color: #f4f4f4;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .misdonacionesong-imagen {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .misdonacionesong-nombre {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
