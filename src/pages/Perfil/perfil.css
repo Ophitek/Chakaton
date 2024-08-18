@@ -1,0 +1,74 @@
+.perfil {
+    background-color: #f4f4f4;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .perfil-imagen {
+    width: 100%;
+    height: auto;
+    max-height: 400px;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  .perfil-nombre {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .perfil-descripcion {
+    font-size: 18px;
+    color: #555;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+    text-align: justify;
+  }
+  
+  /* Nueva sección de objetivos y logros */
+  .perfil-objetivos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+  }
+  
+  .objetivo {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    max-width: 800px;
+    width: 100%;
+  }
+  
+  .objetivo-imagen {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-right: 20px;
+  }
+  
+  .objetivo-texto {
+    text-align: left;
+  }
+  
+  .objetivo-titulo {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .objetivo-descripcion {
+    font-size: 16px;
+    color: #555;
+  }
+  

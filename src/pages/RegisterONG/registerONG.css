@@ -1,9 +1,13 @@
+body{
+  background-color: #0F1035;
+}
+
 .registerONG-card-container {
     margin-top: 40px;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 90vh;
+    height: 100vh;
     font-family: 'Roboto', sans-serif;
     background-color: #0F1035;
   }
