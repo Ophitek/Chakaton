@@ -5,34 +5,34 @@
   justify-content: space-between;
   align-items: center;
   padding: 0 0 0 0;
-  background-color: #0F1035; /* Fondo de la navbar */
+  background-color: #0F1035; 
   position: fixed;
   width: 100%;
   height: 10vh;
-  top: 0; /* Se queda pegada en la parte superior al hacer scroll */
-  z-index: 1000; /* Asegura que la navbar se superponga a otros elementos */
+  top: 0; 
+  z-index: 1000; 
 } 
 
 .navbar-brand {
-  margin-right: auto; /* Asegura que el logo se alinee a la izquierda */
+  margin-right: auto; 
   display: flex;
   align-items: center;
 }
 
 .navbar-collapse {
   display: flex;
-  justify-content: flex-end; /* Alinea el contenido a la derecha */
+  justify-content: flex-end; 
   align-items: center;
   width: 100%;
 }
 
 .navbar-nav {
   display: flex;
-  gap: 20px; /* Espaciado entre los elementos del menú */
+  gap: 20px; 
   list-style: none;
   padding-left: 0;
   margin-bottom: 0;
-  margin-right: 20px; /* Espaciado entre los textos y el botón */
+  margin-right: 20px; 
 }
 
 .nav-item {
@@ -43,16 +43,16 @@
   padding: 10px 15px;
   margin: 0 0 2.5vh 0vh;
   text-decoration: none;
-  color: #f9e4e4; /* Cambia el color del texto */
+  color: #f9e4e4; 
   font-family: "Work Sans", sans-serif;
   font-style: normal;
-  font-weight: bolder; /*Aumenta el grosor del texto*/
-  font-size: 18px; /* Aumenta el tamaño del texto */
-  align-self: center; /* Alinea verticalmente con el botón */
+  font-weight: bolder;
+  font-size: 18px; 
+  align-self: center; 
 }
 
 .nav-link:hover {
-  color: #007bff; /* Color al pasar el mouse */
+  color: #007bff; 
 }
 
 .form-inline {
@@ -61,14 +61,14 @@
 }
 
 .btn {
-  background-color: #007bff; /* Color azul del botón */
+  background-color: #007bff; 
   color: white;
   border: none;
   padding: 10px 20px;
-  transition: background-color 0.3s ease; /* Transición suave para el hover */
-  border-radius: 5px; /* Bordes redondeados del botón */
+  transition: background-color 0.3s ease;
+  border-radius: 5px; 
 }
 
 .btn:hover {
-  background-color: #0056b3; /* Azul más claro al hacer hover */
+  background-color: #0056b3; 
 }

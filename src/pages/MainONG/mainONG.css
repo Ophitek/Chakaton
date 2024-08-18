@@ -1,0 +1,29 @@
+.organizacion {
+  background-color: #f4f4f4;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+}
+
+.organizacion__imagen {
+  width: 100%;
+  height: auto;
+  max-height: 400px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.organizacion__nombre {
+  font-size: 36px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.organizacion__descripcion {
+  font-size: 18px;
+  color: #555;
+  max-width: 800px;
+  margin: 0 auto;
+  line-height: 1.6;
+  text-align: justify;
+}

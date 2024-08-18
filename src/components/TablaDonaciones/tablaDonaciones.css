@@ -1,0 +1,33 @@
+.tabla-donaciones {
+    display: flex;
+    justify-content: center;
+    padding: 20px; 
+  }
+  
+  .table {
+    width: 100%;
+    max-width: 800px; 
+    border-collapse: collapse; 
+    border: 2px solid #333; 
+  }
+  
+  .th-donaciones, .td-donaciones {
+    border: 1px solid #ddd;
+    padding: 12px; 
+    text-align: left; 
+  }
+  
+  .th-donaciones {
+    background-color: #0F1035; 
+    color: white; 
+    font-weight: bold; 
+  }
+  
+  .tr-donaciones:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .tr-donaciones:hover {
+    background-color: #f1f1f1;
+  }
+  

@@ -20,6 +20,7 @@ export default function NavbarDonador() {
        <a>Status ☁️</a>
      </div>
       </nav>
+    
   )
 
 }

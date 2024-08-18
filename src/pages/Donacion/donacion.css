@@ -6,10 +6,16 @@ body {
     color: #333;
 }
 
+.donacion{
+    background-color: #f4f4f4;
+    height: 100%;
+}
+
 .donacion-header {
     background: url('https://images.pexels.com/photos/247480/pexels-photo-247480.jpeg?auto=compress&cs=tinysrgb&w=600') no-repeat center center/cover;
     color: white;
     text-align: center;
+    background-color: #f9f9f9;
     padding: 0; 
     height: 70vh;
     display: flex;
