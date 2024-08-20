@@ -5,11 +5,13 @@ export default function QuienesSomos() {
   return (
     <>
       <div className="our-info-container">
-        <div className='our-info-text'>
-            when eres soy
-        </div>
-        <div className='our-info-text-small'>
-            Somos un servicio web que pretende mostrarte fhfhggh
+        <div className='our-info-text-container'>
+          <div className='our-info-text-big'>
+              SILICE
+          </div>
+          <div className='our-info-text-small'>
+              Somos un servicio web que pretende volver el proceso de donaciones algo mucho más transparente. Con nuestro sistema empleando contratos inteligentes 
+          </div>
         </div>
       </div>
     </>

@@ -47,7 +47,7 @@ export default function NavbarONG() {
     <div>
       <nav className="navbar">
         <a className="navbar-brand" href="#">
-          <img src="/assets/LogoOphitek2.png" onClick={goHome} alt="Logo" width="160" height="80" />
+          <img src="/assets/ophitekLogoBW.png" onClick={goHome} alt="Logo" className='navbar-ophitek-logo'/>
         </a>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
