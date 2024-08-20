@@ -24,7 +24,7 @@ export default function NavbarPrincipal() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item active">
-              <a className="navbarP-link" href="#home">¿Quiénes somos?</a>
+              <a className="navbarP-link" href="/">¿Quiénes somos?</a>
             </li>
             <li className="nav-item">
               <a className="navbarP-link" href="#about">Nuestro proyecto</a>
