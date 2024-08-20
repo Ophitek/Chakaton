@@ -8,20 +8,29 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    text-align: center;
+    display: flex;
+    justify-content: center;
     width: 100%;
   }
 
-.our-info-text{
+.our-info-text-container{
+  padding: 10vh 0 0 0;
+  width: 75vw;
+}
+
+
+.our-info-text-big{
   font-family: "Work Sans", sans-serif;
   font-style: normal;
   font-size: 8vh;
   color: white;
+  
 }
 
 .our-info-text-small{
   font-family: "Work Sans", sans-serif;
   font-style: normal;
+  
   color: white;
 }
 

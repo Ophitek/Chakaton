@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-.navbar {
+.navbarP {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 0 0 0;
-  background-color: #0F1035; 
+  background-color: #5a55ae; 
   position: fixed;
   width: 100%;
   height: 10vh;
@@ -13,7 +13,7 @@
   z-index: 1000; 
 } 
 
-.navbar-brand {
+.navbarP-brand {
   margin-right: auto; 
   display: flex;
   align-items: center;
@@ -35,12 +35,18 @@
   margin-right: 20px; 
 }
 
+.navbar-ophitek-logo{
+  height: 9.5vh;
+  width: 9.5vh;
+  margin: 0 0 0 2vw;
+}
+
 .nav-item {
   display: flex;
 }
 
-.nav-link {
-  padding: 10px 15px;
+.navbarP-link {
+  padding: 3vh 0 0 0;
   margin: 0 0 2.5vh 0vh;
   text-decoration: none;
   color: #f9e4e4; 
