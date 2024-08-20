@@ -3,6 +3,7 @@ import QuienesSomos from '../../components/QuienesSomos/QuienesSomos'
 import TipoUsuario from '../../components/TipoUsuario/TipoUsuario'
 import React from 'react'
 import "./principal.css"
+import NuestroProyecto from '../../components/NuestroProyecto/NuestroProyecto'
 
 export default function Principal() {
   return (
@@ -10,6 +11,7 @@ export default function Principal() {
       <NavbarPrincipal/>
       <QuienesSomos/>
       <TipoUsuario/>
+      <NuestroProyecto/>
     </>
   )
 }

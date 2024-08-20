@@ -16,6 +16,9 @@
 .our-info-text-container{
   padding: 10vh 0 0 0;
   width: 75vw;
+  
+  padding: 20px;
+  
 }
 
 
@@ -30,8 +33,11 @@
 .our-info-text-small{
   font-family: "Work Sans", sans-serif;
   font-style: normal;
-  
   color: white;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  text-align: justify;
+  
 }
 
 .parallax-image {

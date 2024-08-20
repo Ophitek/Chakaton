@@ -1,0 +1,113 @@
+
+  
+  .hea {
+    text-align: center;
+    padding: 40px 0;
+    color: #fff;
+  }
+  
+  .title {
+    font-size: 2.6rem;
+    margin: 0;
+    background-color: #866ebe5e;
+    padding: 40px 0;
+  }
+  .meet{
+    text-align: center;
+    padding: 30px 0;
+    color: #fff;
+    font-size: 2.6rem;
+    background-color: #866ebe1a;
+  }
+  .names{
+    background-color: #7650b48f;
+    border-radius: 60px;
+    max-width: 800px;
+    padding: 20px;
+    padding-left: 300px;
+    margin-left: 40px;
+    margin-right: 50px;
+    color: #cfc6c6;
+  }
+  
+  .subtitle {
+    font-size: 1.5rem;
+    margin-top: 10px;
+    
+  }
+  
+  .about-section, .features-section, .getting-started-section {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #866ebe;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .section-title {
+    font-size: 2rem;
+    color: #e9e9e9;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .section-description {
+    font-size: 1.2rem;
+    color: #d4cfe4;
+    text-align: justify;
+  }
+  
+  .features-list, .steps-list {
+    list-style: none;
+    padding: 0;
+    font-size: 1.2rem;
+  }
+  
+  .features-list li, .steps-list li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+  }
+  
+  .features-list li:before, .steps-list li:before {
+    content: '➤';
+    position: absolute;
+    left: 0;
+    color: #000e1f;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+    background-color: #1d3a5f;
+    color: #fff;
+  }
+  
+  .footer-text {
+    margin: 0;
+    font-size: 1rem;
+  }
+  
+  .team-section {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #264996c5;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .team-section .section-title {
+    font-size: 2rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .team-section .section-description {
+    font-size: 1.2rem;
+    color: #b6b4b4;
+    text-align: justify;
+  }

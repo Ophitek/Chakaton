@@ -24,13 +24,13 @@ export default function NavbarPrincipal() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ml-auto">
             <li className="nav-item active">
-              <a className="navbarP-link" href="/">¿Quiénes somos?</a>
+              <a className="navbarP-link" href="#home">¿Quiénes somos?</a>
             </li>
             <li className="nav-item">
-              <a className="navbarP-link" href="/">Nuestro proyecto</a>
+              <a className="navbarP-link" href="#about">Nuestro proyecto</a>
             </li>
             <li className="nav-item">
-              <a className="navbarP-link" href="/">Nuestro equipo</a>
+              <a className="navbarP-link" href="#team">Nuestro equipo</a>
             </li>
             <li className="nav-item">
               <a className="navbarP-link" onClick={goLogin}>Inicia Sesión</a>
