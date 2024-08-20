@@ -10,7 +10,6 @@ export default function MainDonador() {
     <div className='mainDonador'>
       <NavbarDonador/>
       <Donador/>
-      <Donacion />
     </div>
 )
 }
