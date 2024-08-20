@@ -7,7 +7,7 @@ const ListaContratos = () => {
     useEffect(() => {
         const fetchContracts = async () => {
             try {
-                const response = await axios.get(`${process.env.URL-API}/api/contracts`); // Hace la solicitud a la API para obtener los contratos
+                const response = await axios.get(`${import.meta.env.VITE_URL_API}/api/contracts`); // Hace la solicitud a la API para obtener los contratos
                 setContracts(response.data); // Guarda los contratos en el estado
             } catch (error) {
                 console.error('Error al obtener la lista de contratos:', error);
@@ -25,7 +25,7 @@ const ListaContratos = () => {
                     <li key={contract._id}>
                         <h2>{contract.name}</h2>
                         <p>Dirección del contrato: {contract.contractAddress}</p>
-                        <p>{contract.description}</p>
+                        <p>Descripcion: {contract.description}</p>
                         <p>Propietario: {contract.owner}</p>
                     </li>
                 ))}
