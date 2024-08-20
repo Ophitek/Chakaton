@@ -1,10 +1,17 @@
 import React, { useState } from 'react';
+import axios from 'axios'; // Asegúrate de importar axios
 import "./navbarONG.css";
 import { useNavigate } from "react-router-dom";
 
 export default function NavbarONG() {
   const navigate = useNavigate();
   const [isModalOpen, setIsModalOpen] = useState(false);
+  
+  // Estados para los valores del formulario
+  const [name, setName] = useState('');
+  const [contractAddress, setContractAddress] = useState('');
+  const [description, setDescription] = useState('');
+  const [owner, setOwner] = useState('');
 
   function goHome() {
     navigate("/ong");
@@ -22,9 +29,17 @@ export default function NavbarONG() {
     setIsModalOpen(false);
   }
 
-  function handleSubmit(event) {
-    event.preventDefault();
-    // Aquí puedes manejar el envío del formulario
+  async function handleSubmit(event) {
+    // FUNCION PARA GUARDAR CONTRATOS
+    try {
+      const response = await axios.post(`${process.env.URL-API}/api/crearContrato`, {
+        name,
+        description,
+      });
+      console.log('Contrato guardado en la base de datos:', response.data);
+    } catch (error) {
+      console.error('Error al guardar el contrato:', error);
+    }
     closeModal();
   }
 
@@ -52,36 +67,23 @@ export default function NavbarONG() {
             <button className="close-button" onClick={closeModal}>X</button>
             <form onSubmit={handleSubmit}>
               <label>
-                Imagen de cover:
-                <input type="file" accept="image/*" />
-              </label>
-              <label>
-                Título:
-                <input type="text" required />
+                Nombre del contrato:
+                <input 
+                  type="text" 
+                  id='Donacion' 
+                  required 
+                  value={name} 
+                  onChange={(e) => setName(e.target.value)} 
+                />
               </label>
               <label>
                 Descripción:
-                <textarea required />
-              </label>
-              <label>
-                Imagen ilustrativa:
-                <input type="file" accept="image/*" />
-              </label>
-              <label>
-                Objetivo 1:
-                <input type="text" required />
-              </label>
-              <label>
-                Objetivo 2:
-                <input type="text" required />
-              </label>
-              <label>
-                Objetivo 3:
-                <input type="text" required />
-              </label>
-              <label>
-                Video:
-                <input type="file" accept="video/*" />
+                <textarea 
+                  required 
+                  id='Razon' 
+                  value={description} 
+                  onChange={(e) => setDescription(e.target.value)} 
+                />
               </label>
               <button type="submit">Enviar</button>
             </form>
